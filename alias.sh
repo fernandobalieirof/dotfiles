@@ -1,0 +1,12 @@
+#!/bin/env zsh
+alias lg="lazygit"
+alias ls="eza --long --modified --git --icons=always"
+alias n="nvim"
+alias lst="ls --tree"
+alias gs="git status"
+alias c="clear"
+
+# tmux alias
+alias t="tmux"
+alias ta="tmux a -t $1"
+alias tls="tmux ls"
