@@ -3,8 +3,7 @@ return {
 	"nvim-treesitter/nvim-treesitter",
 	build = ":TSUpdate",
 	config = function()
-		local config = require("nvim-treesitter.configs")
-		config.setup({
+		require("nvim-treesitter.configs").setup({
 			ensure_installed = {
 				"angular",
 				"lua",
@@ -15,18 +14,16 @@ return {
 				"markdown_inline",
 				"toml",
 			},
-			ignore_install = {
-				"javascript",
-			},
-			highlight = {
-				enabled = true
-			},
-			ident= {
-				enabled = true
-			},
-			auto_install = true
-		})
+			auto_install = true,
 
+			highlight = {
+				enable = true,
+				additional_vim_regex_highlighting = false,
+				custom_captures = {},
+				disable = {}
+			},
+
+		})
 
 	end
 }
