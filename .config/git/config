@@ -25,4 +25,4 @@
 	old = red
 
 [commit]
-	template = ./commit-message.txt
+	template = /home/fernando/.config/git/commit-message.txt
