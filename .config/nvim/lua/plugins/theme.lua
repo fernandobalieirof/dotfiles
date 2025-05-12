@@ -1,10 +1,10 @@
-function TransparentGb(color)
-	color = color or "tokyonight-storm"
-	vim.cmd.colorscheme(color)
-	vim.api.nvim_set_hl(0, "Normal", { bg = "none" } )
-	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" } )
-	vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = "none" })
-end
+-- function TransparentGb(color)
+-- 	color = color or "tokyonight-storm"
+-- 	vim.cmd.colorscheme(color)
+-- 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" } )
+-- 	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" } )
+-- 	vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = "none" })
+-- end
 
 -- return {
 -- 	{
@@ -50,8 +50,7 @@ return {
 		require("rose-pine").setup({
 			variant = "moon"
 		})
-		-- vim.cmd("colorscheme rose-pine")
-		TransparentGb("rose-pine")
+		vim.cmd("colorscheme rose-pine")
 	end
 }
 
