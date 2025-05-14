@@ -34,6 +34,7 @@ return {
 		    lspconfig.lua_ls.setup({})
 		    lspconfig.ts_ls.setup({})
 		    lspconfig.gopls.setup({})
+			lspconfig.gleam.setup({})
 		    lspconfig.rust_analyzer.setup({})
 			lspconfig.emmet_language_server.setup({
 				capabilities = capabilities,

@@ -9,6 +9,7 @@ return {
 				"lua",
 				"typescript",
 				"go",
+				"gleam",
 				"rust",
 				"markdown",
 				"markdown_inline",
