@@ -14,6 +14,8 @@ return {
 				"markdown",
 				"markdown_inline",
 				"toml",
+				"zig",
+				"svelte",
 			},
 			auto_install = true,
 

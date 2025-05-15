@@ -18,6 +18,8 @@ return {
 				"emmet_language_server", -- better html
 				"marksman",
 				"sqls",
+				"zls",
+				"svelte",
 		    },
 	    })
     end
@@ -36,6 +38,7 @@ return {
 		    lspconfig.gopls.setup({})
 			lspconfig.gleam.setup({})
 		    lspconfig.rust_analyzer.setup({})
+		    lspconfig.zls.setup({})
 			lspconfig.emmet_language_server.setup({
 				capabilities = capabilities,
 				filetypes = {
