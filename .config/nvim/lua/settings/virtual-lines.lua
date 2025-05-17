@@ -1,3 +1,4 @@
 vim.diagnostic.config({
-	virtual_lines = false
+	virtual_lines = false,
+	virtual_text = true,
 })

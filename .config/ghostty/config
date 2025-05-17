@@ -2,8 +2,8 @@ font-family = "Iosevka Term SS14"
 font-family-bold = "Iosevka Term SS14"
 
 font-size = 16
-background-opacity = 0.8
-background-blur = 20
+background-opacity = 1
+# background-blur = 20
 
 cursor-style-blink = false
 cursor-style = block
