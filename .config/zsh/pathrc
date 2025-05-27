@@ -9,3 +9,15 @@ export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/podman/bin:$PATH"
 export EDITOR=nvim
 
+# bun completions
+[ -s "/home/fernando/.bun/_bun" ] && source "/home/fernando/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# android
+#
+export ANDROID_HOME=$HOME/Android/sdk/
+export PATH=$PATH:$ANDROID_HOME/emulator 
+export PATH=$PATH:$ANDROID_HOME/platform-tools

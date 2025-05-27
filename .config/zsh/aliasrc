@@ -5,6 +5,7 @@ alias n="nvim"
 alias lst="ls --tree"
 alias gs="git status"
 alias c="clear"
+alias v="nvim"
 
 # tmux alias
 alias t="tmux"
@@ -14,3 +15,4 @@ alias tns="tmux new -s $1"
 
 alias bare="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
 alias images="/usr/bin/git --git-dir=$HOME/images --work-tree=$HOME/Pictures/"
+

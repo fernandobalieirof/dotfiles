@@ -15,6 +15,7 @@ return {
 				"markdown_inline",
 				"toml",
 				"zig",
+				"php",
 				"svelte",
 			},
 			auto_install = true,
