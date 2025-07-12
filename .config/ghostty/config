@@ -2,10 +2,10 @@ font-family = "Iosevka Term SS14"
 font-family-bold = "Iosevka Term SS14"
 
 font-size = 16
-background-opacity = 1
-# background-blur = 20
+background-opacity = .75
+background-blur = true
 
 cursor-style-blink = false
 cursor-style = block
 shell-integration-features = no-cursor
-theme = rose-pine-moon
+theme = "Banana Blueberry"

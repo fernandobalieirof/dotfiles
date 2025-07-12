@@ -20,7 +20,7 @@ return {
 				"sqls",
 				"zls",
 				"svelte",
-				"phpactor"
+				"tsp_server",
 		    },
 	    })
     end
@@ -39,6 +39,7 @@ return {
 
 
 			lspconfig.angularls.setup({})
+			lspconfig.tsp_server.setup({})
 		    lspconfig.lua_ls.setup({})
 		    lspconfig.ts_ls.setup({})
 
