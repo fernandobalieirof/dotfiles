@@ -10,3 +10,11 @@ done
 
 export PATH="/home/fernando/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/home/fernando/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
+
+# pnpm
+export PNPM_HOME="/home/fernando/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
